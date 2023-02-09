@@ -123,6 +123,9 @@ equals(QT_MAJOR_VERSION, 5) | greaterThan(QT_MINOR_VERSION, 5) {
     # This is required to fixup homebrew libusb-1.0 installation
     # the pkgconfig file for this doesn't include cxxflags, so we need to pick this up
     INCLUDEPATH += /usr/local/include
+
+    # Support MacPorts libusb-1.0 installation
+    INCLUDEPATH += /opt/local/include
 }
 
 # post-link configuration
