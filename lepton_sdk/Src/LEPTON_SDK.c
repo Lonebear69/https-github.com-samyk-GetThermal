@@ -65,6 +65,8 @@
 /******************************************************************************/
 #include "LEPTON_SDK.h"
 
+#include "uvc_sdk.h"
+//#include "../inc/leptonvariation.h"
 
 
 #ifdef LEP_USE_DYNAMIC_ALLOCATION
